@@ -33,7 +33,7 @@ The purpose of this book is to provide a basic introduction to the syntax of C# 
 
 ### Lessons
 Work you way down through these lessons, one at a time:
-|#|Thrown for a Loop <br>:football::curly_loop: <sub>(guided tour)</sub> |
+|#|Lesson|
 |:-:|:-:|
 |1|[Setting up a console app](./chapters/setting-up-console-app.md)|
 |2|[Strings, Console](./chapters/interacting-with-console.md)|
@@ -52,15 +52,15 @@ Work you way down through these lessons, one at a time:
 [Reducto & Absurdum](./chapters/reducto.md)
 
 ### Coding Assessment
-:trumpet: :page_with_curl: [Brass & Poem](./chapters/coding-self-assessment.md)
+[Brass & Poem](./chapters/coding-self-assessment.md) :trumpet: :page_with_curl:
 
 
 ### Explorer Chapters (after you finish the self assessment or are otherwise waiting)
 |#|Chapter|
 |:-:|:-:|
-|1|:potted_plant: [Dictionaries and Arrays](./chapters/book-1-extravert-collections-explorer.md)|
-|2|:football::curly_loop: [DateTimes in Depth](./chapters/book-1-datetimes-explorer.md)|
-|3|:potted_plant: [Creating Custom Exceptions](./chapters/book-1-custom-exceptions-explorer.md)
+|1|[Dictionaries and Arrays](./chapters/book-1-extravert-collections-explorer.md)|
+|2|[DateTimes in Depth](./chapters/book-1-datetimes-explorer.md)|
+|3|[Creating Custom Exceptions](./chapters/book-1-custom-exceptions-explorer.md)|
 
 ### Projects
 |#|Project|
