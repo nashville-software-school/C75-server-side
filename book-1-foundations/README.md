@@ -35,17 +35,18 @@ The purpose of this book is to provide a basic introduction to the syntax of C# 
 Work you way down through these lessons, one at a time:
 |#|Lesson|
 |:-:|:-:|
-|1|[Setting up a console app](./chapters/setting-up-console-app.md)|
-|2|[Strings, Console](./chapters/interacting-with-console.md)|
-|4|[Integers](./chapters/working-with-integers.md)|
-|5|[List](./chapters/thrown-for-a-loop-lists.md)|
-|6|[More Lists](./chapters/thrown-for-a-loop-linq.md)|
-|7|[User-Defined Types: Classes](./chapters/classes-intro.md)|
-|8|[Calculated Properties](./chapters/classes-calculated.md)|
-|9|[DateTime](./chapters/foundations-datetime.md)|
-|10|[Doubles and Decimals](./chapters/doubles-and-decimals.md)<br><sub style="font-size: 0.85rem;">#foreach</sub>|
-|11|[Exceptions and Error Handling](./chapters/handling-exceptions.md)|
-|12|[Methods](./chapters/foundations-methods.md)|
+|1|[Setting up a console app](./chapters/setting-up-console-app.md)<br><sub style="font-size: 0.85rem;">#CLI</sub>|
+|2|[Strings, Console](./chapters/interacting-with-console.md)<br><sub style="font-size: 0.85rem;">#Variables #Readline #WriteLine</sub>|
+|3|[Loops and Conditions](./chapters/working-with-integers.md)<br><sub style="font-size: 0.85rem;">#if/else #while #false #string_methods</sub>|
+|4|[Integers](./chapters/working-with-integers.md)<br><sub style="font-size: 0.85rem;">#declaring/assigning #parsing</sub>|
+|5|[Lists](./chapters/thrown-for-a-loop-lists.md)<br><sub style="font-size: 0.85rem;">#initialization #adding_items #accessing_elements #length #for</sub>|
+|6|[More Lists](./chapters/thrown-for-a-loop-linq.md)<br><sub style="font-size: 0.85rem;">#linq_methods</sub>|
+|7|[User-Defined Types: Classes](./chapters/classes-intro.md)<br><sub style="font-size: 0.85rem;">#new #using_classes #dot_notation</sub>|
+|8|[Properties](./chapters/classes-calculated.md)<br><sub style="font-size: 0.85rem;">#calculated_properties #casting #ternary</sub>|
+|9|[DateTime](./chapters/foundations-datetime.md)<br><sub style="font-size: 0.85rem;">#creating #now #today #comparison</sub>|
+|10|[Doubles and Decimals](./chapters/doubles-and-decimals.md)<br><sub style="font-size: 0.85rem;">#type_differences #foreach</sub>|
+|11|[Exceptions and Error Handling](./chapters/handling-exceptions.md)<br><sub style="font-size: 0.85rem;">#try/catch #exception_parameter</sub>|
+|12|[Methods](./chapters/foundations-methods.md)<br><sub style="font-size: 0.85rem;">#encapsulation #void</sub>|
 
 
 ### Pair Programming Project
