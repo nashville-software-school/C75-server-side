@@ -31,6 +31,7 @@ The purpose of this book is to provide a basic introduction to the syntax of C# 
 |[Installations for Book 1](./chapters/book-1-installations.md) :computer:|
 |--|
 
+### Lessons
 Work you way down through these lessons, one at a time:
 |#|Thrown for a Loop <br>:football::curly_loop: <sub>(guided tour)</sub> |
 |:-:|:-:|
@@ -47,22 +48,24 @@ Work you way down through these lessons, one at a time:
 |12|[Methods](./chapters/foundations-methods.md)|
 
 
-|:page_with_curl: Pair Programming Project:|
-|[Reducto & Absurdum](./chapters/reducto.md)|
+### Pair Programming Project
+[Reducto & Absurdum](./chapters/reducto.md)
 
-|:trumpet: :page_with_curl:[Coding Assessment](./chapters/coding-self-assessment.md)|
-|--|
-|:potted_plant: [Dictionaries and Arrays](./chapters/book-1-extravert-collections-exploorer.md)|
-
-|:compass: Explorer Chapters (after you finish the self assessment or are otherwise waiting)|
-|--|
-|:potted_plant: [Dictionaries and Arrays](./chapters/book-1-extravert-collections-explorer.md)|
-|:football::curly_loop: [DateTimes in Depth](./chapters/book-1-datetimes-explorer.md)|
-|:potted_plant:[Creating Custom Exceptions](./chapters/book-1-custom-exceptions-explorer.md)|
+### Coding Assessment
+:trumpet: :page_with_curl: [Brass & Poem](./chapters/coding-self-assessment.md)
 
 
-|:test_tube: Projects|
-|--|
-|[Guessing Game](https://github.com/nashville-software-school/bangazon-inc/blob/main/book-1-orientation/chapters/GUESSING_GAME_EXERCISE.md)|
-|[Plan Your Heist](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/PLAN_YOUR_HEIST.md)|
+### Explorer Chapters (after you finish the self assessment or are otherwise waiting)
+|#|Chapter|
+|:-:|:-:|
+|1|:potted_plant: [Dictionaries and Arrays](./chapters/book-1-extravert-collections-explorer.md)|
+|2|:football::curly_loop: [DateTimes in Depth](./chapters/book-1-datetimes-explorer.md)|
+|3|:potted_plant: [Creating Custom Exceptions](./chapters/book-1-custom-exceptions-explorer.md)
+
+### Projects
+|#|Project|
+|:-:|:-:|
+|1|[Guessing Game](https://github.com/nashville-software-school/bangazon-inc/blob/main/book-1-orientation/chapters/GUESSING_GAME_EXERCISE.md)|
+|2|[Plan Your Heist](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/PLAN_YOUR_HEIST.md)|
+
 <!-- prettier-ignore-end -->
