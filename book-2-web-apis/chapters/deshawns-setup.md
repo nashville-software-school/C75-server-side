@@ -34,6 +34,7 @@ This code tells the server that is serving the javascript app to send any unknow
 1. This means, that to avoid name clashes, prepend every API route with `/api` for this and the rest of the projects in the course. 
 
 ### `launchSettings.json`
+
 This is a good time to point out that in the `Properties` folder of the API project, there is a file called `launchSettings.json`. This file contains the configurations for running the web API. 
 There are two profiles in the JSON. This is the one that the debugger is using:
 ``` JSON
