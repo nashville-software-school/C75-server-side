@@ -1,6 +1,15 @@
 # Getting Reservations with Related Data
 
-Add this endpoint to the project:
+Of course, we're also going to want to get our reservations. And we'll probably want more information than just what's stored in the reservation itself. We'll probably want the name of the person who placed the reservation, the campsite name, and fees, etc. To do this, we'll need to write a query that gets all this information. Before we write the code, let's take a moment to think this through in English. This is generally a good idea because solving the logical problem is one challenge, and translating that into specific instructions is another challenge. You'll save yourself a lot of grief by splitting these into two steps... especially at first, while you're still getting comfortable with both of these. So let's boil the process down to an _algorithm_.
+
+1. First, we need to get all the Reservations.
+2. For each reservation, we need to get information about its associated User
+2. For each reservation, we need to get information about its associated Campsite
+3. Once we have that campsite, we need to find the Campsite's CampsiteType
+4. Then we'll compile the information from all of these
+5. Finally, let's sort these by checkinDate.
+
+Once we've clearly defined an algorithm. we can write the code to implement that. Add this endpoint to the project:
 ``` csharp
 app.MapGet("/api/reservations", (CreekRiverDbContext db) =>
 {
