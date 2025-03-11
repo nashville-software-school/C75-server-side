@@ -44,4 +44,4 @@ In this chapter you will add endpoints to create a reservation and cancel a rese
 ## Cancelling a Reservation
 See if you can implement this endpoint on your own! You can use the endpoint for deleting a campsite as a reference. 
 
-Up Next: [Calculating Fees](./creek-river-calculated.md)
+Up Next: [Soft Delete](./creek-river-campsite-deactivate.md)

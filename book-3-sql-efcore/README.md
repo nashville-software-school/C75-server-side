@@ -1,4 +1,18 @@
+
+# DONE:
+1. soft delete (inactive flag) - add to end of creek river. make sure it still works with related data cascade-deleting
+2. regression and different DTOs - create an exception with an existing DTO and resolve with a new one (see late fees)
+3. algorithmic thinking - see overdue items and add this kind of explanation in creek
+4. add 90s tv
+5. get form working
+6. add Cors in creek river lesson
+8. calculated property for total fees
+9. write lesson for client, with instructions for features to add
+
+
+
 # Book 3 - Managing Data with SQL and Entity Framework Core
+
 Up until now in the server-side course, we have been using variables in our programs to store the data for our applications (storing the data _in-memory_). Of course, this doesn't work in real-life situations. It's rare that applications like those that we're building don't require permanent data storage. When you shut down the apps that you've built thus far, any changes to them are discarded along with any other data the application stored in your computer's memory while it was running. 
 
 In the front-end course, you used a JSON data file to store data (and data changes!) that will persist between runs of the application. In this book you will learn to use a number of other technologies to do this instead of using JSON Server:
@@ -28,19 +42,27 @@ Because of the large scope of this book, it is split into three parts, roughly c
 |3| [Getting related data](./chapters/honey-raes-related-data.md) |
 |4| [Inserting and Updating rows](./chapters/honey-raes-create.md) |
 |5| [Deleting a row](./chapters/honey-raes-delete.md) |
+
+
 ## III. Entity Framework Core
-|#|:tent: <br> Creek River Campground <br> (guided tour) | :book: <br> Loncotes County Library | :haircut: <br> Hillary's Hair Care |
-|:-:|:-:|:-:|:-:|
-|1| [Project Setup](./chapters/creek-river-setup.md) |[Project Requirements](./chapters/loncotes-setup.md)|[Project Intro](./chapters/hillarys-project-requirements.md)|
-|2| [Creating the database](./chapters/creek-river-db-context.md) <br><sub style="font-size: 0.85rem;">#encapsulation #inheritance #protected #override #constructor #base</sub>|[Basic Features](./chapters/loncotes-basic-features.md)<br><sub style="font-size: 0.85rem;">#soft-delete</sub>||
-|3| [Get campsites](./chapters/creek-river-get-campsites.md) <br><sub style="font-size: 0.85rem;">#Include #Single</sub>|[Get Available Materials](./chapters/loncotes-get-available-materials.md)<br><sub style="font-size: 0.85rem;">#All</sub>||
-|4| [Create a campsite](./chapters/creek-river-create-campsite.md) |[Get Overdue Checkouts](./chapters/loncontes-overdue-checkouts.md)||
-|5| [Delete a campsite](./chapters/creek-river-delete-campsite.md) |[Late Fees](./chapters/loncontes-calculate-fees.md)||
-|6| [Update a campsite](./chapters/creek-river-campsite-update.md) |||
-|7| [Get reservations](./chapters/creek-river-get-reservations.md) <br><sub style="font-size: 0.85rem;">#ThenInclude #OrderBy </sub>|||
-|8| [Book reservations](./chapters/creek-river-book-reservation.md) |||
-|9| [Calculating fees](./chapters/creek-river-calculated.md) <br><sub style="font-size: 0.85rem;">#field #static #private</sub>|[Loncotes Client App](./chapters/loncotes-client.md)||
-|10|:car:[Inheritance](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/INHERITANCE_INTRO.md)|:tv:[Advanced Linq: Nineties TV](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md)|:convenience_store:[Coding Self-Assessment](./chapters/book-3-coding-assessment.md)|
+|#|:tent: <br> Creek River Campground <br> (guided tour) | 
+|:-:|:-:|
+|1| [Project Setup](./chapters/creek-river-setup.md) |
+|2| [Creating the database](./chapters/creek-river-db-context.md) <br><sub style="font-size: 0.85rem;">#encapsulation #inheritance #protected #override #constructor #base</sub>|
+|3| [Get campsites](./chapters/creek-river-get-campsites.md) <br><sub style="font-size: 0.85rem;">#Include #Single</sub>|
+|4| [Create a campsite](./chapters/creek-river-create-campsite.md) |
+|5| [Delete a campsite](./chapters/creek-river-delete-campsite.md) |
+|6| [Update a campsite](./chapters/creek-river-campsite-update.md) |
+|7| [Get reservations](./chapters/creek-river-get-reservations.md) <br><sub style="font-size: 0.85rem;">#ThenInclude #OrderBy </sub>|
+|8| [Book reservations](./chapters/creek-river-book-reservation.md) |
+|9| [Deactivate a campsite](./chapters/creek-river-campsite-deactivate.md) |
+|10| [Calculating fees](./chapters/creek-river-calculated.md) <br><sub style="font-size: 0.85rem;">#field #static #private</sub>|
+|11|[Inheritance](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/INHERITANCE_INTRO.md)|
+|12|[Client Side](./chapters/creek-river-client.md)|
+|13|:tv:[Advanced Linq: Nineties TV](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md)|
+
+<!-- 
+:tv:[Advanced Linq: Nineties TV](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md)|:convenience_store:[Coding Self-Assessment](./chapters/book-3-coding-assessment.md)| -->
 
 ## Troubleshooting Entity Framework Issues
 

@@ -34,7 +34,7 @@ Test this out by hitting the `/api/reservations` endpoint. Now you will see a ca
 ## `TotalCost`
 Add this line to the `ReservationDTO` class:
 ``` csharp
-private static readonly decimal _reservationBaseFee = 10M;
+private static readonly decimal _reservationFee = 10M;
 ```
 This is a small line, but there's a lot going on:
 1. This class member is called a _field_. Fields do not have `get` or `set`, which is how you know it is not a _property_.
@@ -44,7 +44,7 @@ This is a small line, but there's a lot going on:
 1. This is not exactly new, but just as a reminder, to indicate that a numeric value is a `decimal` and not an `int` or `double`, there is an `M` at the end of the number.
 1. By convention, private fields have a prepended `_`.   
 
-The purpose of this field is to store the base reservation cost, which is charged no matter how many nights are reserved. It is the same for every reservation, so we want all reservation instances to share it, but we don't need to send it back with every reservation in the JSON. 
+The purpose of this field is to store the reservation rate. It is the same for every reservation, so we want all reservation instances to share it, but we don't need to send it back with every reservation in the JSON. 
 
 Add this property to the `ReservationDTO` model:
 ``` csharp
@@ -52,11 +52,11 @@ public decimal TotalCost
 {
     get
     {
-        return Campsite.CampsiteType.FeePerNight * TotalNights + _reservationBaseFee;
+        return TotalNights * _reservationFee;
     }
 }
 ```
-This property multiplies the fee per night for this campsite by the total nights, and then adds the base reservation fee to calculate the total cost.
+This property multiplies the fee per night by the total nights to calculate the total cost.
 
 Fortunately, the endpoint to get reservations already includes `Campsite` and `CampsiteType`, so test it again to see the `totalCost` values appear in the JSON response for each reservation. 
 
