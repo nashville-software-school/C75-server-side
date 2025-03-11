@@ -4,10 +4,11 @@
 2. regression and different DTOs - create an exception with an existing DTO and resolve with a new one (see late fees)
 3. algorithmic thinking - see overdue items and add this kind of explanation in creek
 4. add 90s tv
+5. get form working
+6. add Cors in creek river lesson
+8. calculated property for total fees
+9. write lesson for client, with instructions for features to add
 
-# TODO:
-5. add client side - port that lesson to end of creek river. create a new comparable starter codebase
-6. check project
 
 
 # Book 3 - Managing Data with SQL and Entity Framework Core

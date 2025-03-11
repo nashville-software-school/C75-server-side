@@ -1,6 +1,31 @@
 # Creek River React Client
 Creek River has asked us to build a new client application. Initially, this will just be for the park rangers to use. Another developer on the team has already gotten started on the project, and you will pick it up from here. Go to [this](https://github.com/nashville-software-school/dotnet-creek-river-client) repo to get the template code to start the project. Follow the directions in the README to get it set up. The repo uses [`reactstrap`](https://reactstrap.github.io/?path=/story/home-installation--page), a library of Bootstrap-styled React components. If you wish, you can use it to add the new components you are going to build. It is also fine to not use it. Some of the styles from Bootstrap will be applied even if you don't use any `reactstrap` components. Reactstrap (and other component libraries) are worth getting familiar with, but you do not have to do so right away.  
 
+## Dealing with CORS
+Since we're building a front end and we'll need it to communicate with our server locally, we're going to hit CORS problems again. Let's resolve this the same way we did before. In `Program.cs` of your API code, add the following line below `builder.Services.AddSwaggerGen();`
+
+``` csharp
+builder.Services.AddCors();
+```
+
+Then, update the code that starts with `app.Environment.IsDevelopment()` with this code block:
+
+``` csharp
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+    app.UseCors(options =>
+                {
+                    options.AllowAnyOrigin();
+                    options.AllowAnyMethod();
+                    options.AllowAnyHeader();
+                });
+}
+```
+
+This should prevent the issue. If you still have problems with CORS, message an instructor.
+
 ## Exploring the existing repo
 Examine the existing codebase and how it is structured. Pay particular attention to the following areas:
 1. the `data` directory with the various managers. Try to use these manager modules to keep your `fetch` calls out of your components. 
@@ -16,21 +41,13 @@ The first developer was able complete the following features:
 1. display a material's details
 
 ## Features to implement:
-1. Add a component to allow the librarians to see all patrons, including their active status.  
-1. Add a component to allow the librarians to see the details for a patron, including their late fees, if they have any. 
-1. Add a form component to allow librarians to edit the address or email of a patron. 
-1. Add a button labeled "Deactivate" to each of the patrons _that are active_ in the patrons list to deactivate a patron. Use `onClick` with a handler to deactivate the user. After the user has been deactivated, the patrons list should be updated, and the deactivated user should not have a button next to their name anymore.  
-1. Add a button to each item in the materials list component to remove that material from circulation. Use `onClick` with a handler to make the appropriate request to the API. When the button is clicked, the material should be removed from circulation, and the list of materials should be updated. 
-1. Add a menu item to view checkouts, that links to a component to list all of the checkouts. 
-1. Add a button to each of the currently checked out items to return the item. Use the click handler for that item to make a request to the correct API endpoint, and update the list to reflect that the item has been returned.
-1. Add a menu item to the nav bar called "Browse" that links the user to a list of all of the available (not checked out, and in circulation) materials.
-1. Add a button to the material items in the Browse component labeled "Check out". This button should navigate to a form component that allows the user to input a patron's id. Add a submit button to this component which send a request to the API to create a new checkout for that material (HINT: you will need to use a URL param and `useParams` in the form component to know which material the checkout is for). 
-1. Add a menu item to the navbar called "Overdue Checkouts" that links to a component that shows all of the overdue checkouts with the patron that has the item. 
- 
+1. Add a component to show all users' basic info 
+1. Add a component to show the details for a user, including their reservations if they have any
+1. Add a form component to edit the name or email address of a user, and a link to this in each user's listing on the list page
+1. Add a form to make a reservation, selecting an active campsite and a user (each with a select element), and entering check-in and check-out dates
+1. Add a button labeled "Deactivate" to each of the campsites _that are active_ in the campsite list to deactivate that campsite. Use `onClick` with a handler to deactivate the campsite. Each inactive campsite should have a button to re-activate it. And the list should update immediately afterwards.
+1. Add a component to show all reservations, with a button for each to delete that reservation.
+1. Add an option on the campsites list component to hide all inactive campsites and another to hide all campsites with no pending reservations (checkout date is after today)
 
-
-### Challenges:
-1. The librarians want to be able to filter the materials in the front-end application by genre and material type. Add inputs to the materials list to allow a user to do that, and update the function that makes the api request to use the `genreId` and `materialTypeId` query string params. 
-1. When a user is deactivated, instead of a `Deactivate` button, there should be a `Reactivate` button in the materials list component. Add an API endpoint to handle the reactivation on the server side, and make a request to that endpoint in the click handler for the `Reactivate` button. When they are reactivated, the user should once again have a `Deactivate` button. 
 
 Up Next: [Advanced Linq](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md) (this is another practice chapter from a different curriculum. Start on column 3 in this curriculum when you have finished the advanced linq practice)
