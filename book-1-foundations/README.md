@@ -36,6 +36,7 @@ Work you way down through these lessons, one at a time:
 |:-:|:-:|
 |1|[Setting up a console app](./chapters/setting-up-console-app.md)|
 |2|[Strings, Console](./chapters/interacting-with-console.md)|
+|3|[Conditionals & Loops](./chapters/conditionals-and-loops.md)|
 |4|[Integers](./chapters/working-with-integers.md)|
 |5|[List](./chapters/thrown-for-a-loop-lists.md)|
 |6|[More Lists](./chapters/thrown-for-a-loop-linq.md)|
@@ -48,11 +49,13 @@ Work you way down through these lessons, one at a time:
 
 
 |:page_with_curl: Pair Programming Project:|
+|--|
 |[Reducto & Absurdum](./chapters/reducto.md)|
 
-|:trumpet: :page_with_curl:[Coding Assessment](./chapters/coding-self-assessment.md)|
+
+|Coding Assessment:|
 |--|
-|:potted_plant: [Dictionaries and Arrays](./chapters/book-1-extravert-collections-exploorer.md)|
+|:trumpet: :page_with_curl: [Brass & Poem](./chapters/coding-self-assessment.md)|
 
 |:compass: Explorer Chapters (after you finish the self assessment or are otherwise waiting)|
 |--|
@@ -61,7 +64,7 @@ Work you way down through these lessons, one at a time:
 |:potted_plant:[Creating Custom Exceptions](./chapters/book-1-custom-exceptions-explorer.md)|
 
 
-|:test_tube: Projects|
+|:test_tube: Group Projects|
 |--|
 |[Guessing Game](https://github.com/nashville-software-school/bangazon-inc/blob/main/book-1-orientation/chapters/GUESSING_GAME_EXERCISE.md)|
 |[Plan Your Heist](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/PLAN_YOUR_HEIST.md)|
