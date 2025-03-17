@@ -1,16 +1,4 @@
 
-# DONE:
-1. soft delete (inactive flag) - add to end of creek river. make sure it still works with related data cascade-deleting
-2. regression and different DTOs - create an exception with an existing DTO and resolve with a new one (see late fees)
-3. algorithmic thinking - see overdue items and add this kind of explanation in creek
-4. add 90s tv
-5. get form working
-6. add Cors in creek river lesson
-8. calculated property for total fees
-9. write lesson for client, with instructions for features to add
-
-
-
 # Book 3 - Managing Data with SQL and Entity Framework Core
 
 Up until now in the server-side course, we have been using variables in our programs to store the data for our applications (storing the data _in-memory_). Of course, this doesn't work in real-life situations. It's rare that applications like those that we're building don't require permanent data storage. When you shut down the apps that you've built thus far, any changes to them are discarded along with any other data the application stored in your computer's memory while it was running. 
@@ -61,8 +49,19 @@ Because of the large scope of this book, it is split into three parts, roughly c
 |12|[Client Side](./chapters/creek-river-client.md)|
 |13|:tv:[Advanced Linq: Nineties TV](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md)|
 
-<!-- 
-:tv:[Advanced Linq: Nineties TV](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md)|:convenience_store:[Coding Self-Assessment](./chapters/book-3-coding-assessment.md)| -->
+
+|Pair Programming Project:|
+|--|
+|[Hillary's Hair Care](./chapters/hillarys-project-requirements.md)|
+
+|:test_tube: Group Project|
+|-|
+|[Travel Logger](https://github.com/nss-group-projects/travel-logger)|
+
+
+|Coding Assessment:|
+|--|
+|:convenience_store: [Corner Store](./chapters/book-3-coding-assessment.md)|
 
 ## Troubleshooting Entity Framework Issues
 
@@ -85,7 +84,3 @@ Because of the large scope of this book, it is split into three parts, roughly c
 |-|
 | [Classes](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/classes) |
 |[OOP in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop) |
-
-|:test_tube: Projects|
-|-|
-|[Adventurer's Quest](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/QUEST.md) (practice with fields and constructors)|
