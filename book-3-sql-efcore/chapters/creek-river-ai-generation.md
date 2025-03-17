@@ -10,22 +10,27 @@ In this process, please read, edit and create new folders and files. If you need
 <details>
 <summary>Hint 1: Prompt Outline</summary>
 
-
 Create a .NET Web API for a campground reservation system called Creek River with the following requirements:
 
 The system should manage campsites, where each campsite has:
+
 {describe each property on a separate line}
 
+
 Implement campsite types with:
+
 {describe each property on a separate line}
 
 Allow users to:
+
 {describe each user interaction on a separate line}
 
 Technical requirements:
+
 {try characterize the libraries and coding style we use. This can be difficult without broader experience, but give it a try}
 
 {I needed to add the following because it was having trouble executing commands in the terminal}
+
 In this process, please read, edit and create new folders and files. If you need to otherwise execute something on the command line, instead provide it to me and I will enter that myself.
 
 </details>
