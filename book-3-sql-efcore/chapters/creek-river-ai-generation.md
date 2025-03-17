@@ -10,6 +10,7 @@ In this process, please read, edit and create new folders and files. If you need
 <details>
 <summary>Hint 1: Prompt Outline</summary>
 
+
 Create a .NET Web API for a campground reservation system called Creek River with the following requirements:
 
 The system should manage campsites, where each campsite has:
@@ -31,7 +32,7 @@ In this process, please read, edit and create new folders and files. If you need
 
 <details>
 <summary>Hint 2: Full Prompt</summary>
-```
+
 Create a .NET Web API for a campground reservation system called Creek River with the following requirements:
 
 The system should manage campsites, where each campsite has:
@@ -61,5 +62,5 @@ Implement proper error handling
 Enable CORS for development
 Use proper data relationships (one-to-many, many-to-one)
 Please implement the complete solution with models, DTOs, database context, and API endpoints.
-```
+
 </details>
