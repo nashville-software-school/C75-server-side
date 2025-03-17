@@ -35,32 +35,56 @@ In this process, please read, edit and create new folders and files. If you need
 
 Create a .NET Web API for a campground reservation system called Creek River with the following requirements:
 
+
 The system should manage campsites, where each campsite has:
+
 A unique nickname
+
 An image URL
+
 A campsite type (which determines pricing and max stay duration)
+
 A visibility flag
+
 Associated reservations
 
+
 Implement campsite types with:
+
 A name
+
 Maximum allowed reservation days
+
 Fee per night
 
 Allow users to:
+
 View all campsites and their details
+
 Create, update, and delete campsites
+
 Toggle campsite visibility
+
 Make and cancel reservations
+
 View all reservations with associated user and campsite information
 
+
+
 Technical requirements:
+
 Use minimal API syntax (not controllers)
+
 Implement Entity Framework Core with PostgreSQL
+
 Include DTOs for data transfer
+
 Implement proper error handling
+
 Enable CORS for development
+
 Use proper data relationships (one-to-many, many-to-one)
+
 Please implement the complete solution with models, DTOs, database context, and API endpoints.
 
 </details>
