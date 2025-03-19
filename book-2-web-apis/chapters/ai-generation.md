@@ -1,6 +1,6 @@
 ### AI Agent Prompt Challenge: Generate Honey Rae's API
 
-Now, create a new folder and open it in VS Code. Try to write a prompt that will get an AI agent to generate a .NET codebase similar to what you created in Thrown for a Loop. Do what you can. After the agent is finished, you should try to run it and compare it with your own code.
+Now, create a new folder and open it in VS Code. Try to write a prompt that will get an AI agent to generate a .NET codebase similar to what you created in Honey Rae's. Do what you can. After the agent is finished, you should try to run it and compare it with your own code.
 
 You might want to manually modify the code if the functionality isn't what you expected, if it uses syntax you don't understand, or if you don't like the coding style. Or you can ask it to explain any part of it. Or you can always delete the files generated, tweak your prompt, and try again. This process can take some trial and error, and the goal is gaining a feel for the workflow and how AI works, not getting a specific result.
 
