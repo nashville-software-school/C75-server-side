@@ -58,7 +58,7 @@ Because of the large scope of this book, it is split into three parts, roughly c
 |-|
 |[Travel Logger](https://github.com/nss-group-projects/travel-logger)|
 
-|:robot: AI Challenge|
+|:robot: AI Exercise|
 |-|
 |[Creek River](./chapters/creek-river-ai-generation.md)|
 

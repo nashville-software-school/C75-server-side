@@ -52,6 +52,9 @@ Work you way down through these lessons, one at a time:
 |--|
 |[Reducto & Absurdum](./chapters/reducto.md)|
 
+|:robot: AI Exercise|
+|-|
+|[Thrown for a Loop](./chapters/ai-generation.md)|
 
 |Coding Assessment:|
 |--|
