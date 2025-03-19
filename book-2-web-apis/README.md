@@ -29,6 +29,10 @@ The purpose of this book is to provide a conceptual introduction to building Web
 |7| [Deleting a Ticket](./chapters/honey-raes-delete.md) <br><sub style="font-size: 0.85rem;">#delete</sub>|[Query String Params](./chapters/car-builder-query-string.md)|
 |8| [Assigning a Ticket](./chapters/honey-rae-put.md) <br><sub style="font-size: 0.85rem;">#put</sub>||:potato:[Coding Self-Assessment](./chapters/coding-self-assessment.md)|
 
+|:robot: AI Exercise|
+|-|
+|[Honey Rae's API](./chapters/ai-generation.md)|
+
 |Group Project|
 |-|
 |[Exomine API](./chapters/exomine-api.md)|
