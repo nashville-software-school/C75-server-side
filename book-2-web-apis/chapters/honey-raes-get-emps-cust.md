@@ -150,7 +150,7 @@ What happens when you get a service ticket that doesn't have an employee assigne
 public int? EmployeeId { get; set; }
 ```
 
-Restart the API, and test the endpoint again. `employeeId` should now be `null`, as we would prefer. 
+You'll also need to update this in the DTO. Then restart the API, and test the endpoint again. `employeeId` should now be `null`, as we would prefer. 
 
 
 ## Adding more related data

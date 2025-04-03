@@ -50,6 +50,7 @@ OK, got it all? I heard someone say yes, so let's get started. Work on the refle
 ___
 
 ## ✍️ Reflections
+1. Pay special attention to italicized words - those are terms that you should become comfortable with.
 1. Take a look at some of the architecture diagrams in this chapter, and see if you can draw one for your own front-end capstone (you will likely write a lot of architecture diagrams in your career as a developer.) What are the different pieces, and how do they connect to each other?
 1. Share your diagram with a colleague and see how they are the same/different, and check in with yourself about what parts of the app architecture are still murky or mysterious. 
 1. Write those down to bring up later with your group and instructor!

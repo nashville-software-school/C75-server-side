@@ -36,10 +36,11 @@ Work you way down through these lessons, one at a time:
 |:-:|:-:|
 |1|[Setting up a console app](./chapters/setting-up-console-app.md)|
 |2|[Strings, Console](./chapters/interacting-with-console.md)|
+|3|[Conditionals and Loops](./chapters/conditionals-and-loops.md)|
 |4|[Integers](./chapters/working-with-integers.md)|
-|5|[List](./chapters/thrown-for-a-loop-lists.md)|
-|6|[More Lists](./chapters/thrown-for-a-loop-linq.md)|
-|7|[User-Defined Types: Classes](./chapters/classes-intro.md)|
+|5|[Lists](./chapters/thrown-for-a-loop-lists.md)|
+|7|[More Lists](./chapters/thrown-for-a-loop-linq.md)|
+|6|[User-Defined Types: Classes](./chapters/classes-intro.md)|
 |8|[Calculated Properties](./chapters/classes-calculated.md)|
 |9|[DateTime](./chapters/foundations-datetime.md)|
 |10|[Doubles and Decimals](./chapters/doubles-and-decimals.md)<br><sub style="font-size: 0.85rem;">#foreach</sub>|
@@ -48,6 +49,7 @@ Work you way down through these lessons, one at a time:
 
 
 |:page_with_curl: Pair Programming Project:|
+|--|
 |[Reducto & Absurdum](./chapters/reducto.md)|
 
 |:trumpet: :page_with_curl:[Coding Assessment](./chapters/coding-self-assessment.md)|

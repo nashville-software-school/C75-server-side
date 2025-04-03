@@ -1,6 +1,8 @@
 # Testing the Web API with Postman
 
-In this chapter you will learn how to test endpoints in an API using Postman and how to add an endpoint to the API.
+Earlier, we discussed a tool called Swagger that lets you view and test your API in the browser, with a page that gets built based on your code structure. In this chapter you will learn how to test endpoints using a popular stand-alone application called Postman. While we will just explore the basics here, this tool offers a lot of advanced features to help your dev workflow and collaboration, and could be worth exploring more later.
+
+We will also learn how to add an endpoint to the API.
 
 # Using Postman
 
@@ -74,9 +76,9 @@ app.MapGet("/hello", () =>
     return "hello";
 });
 ```
-1. Save the file, and in the debugging controls panel, hit the "Restart" button (`Ctrl+Shift+F5` if it's an option for you). 
-1. In Postman, replace the `/weatherforecast` end of the address with `/hello`. Click Send again
-1. You should see the string `hello` in the response body at the bottom. 
+2. Save the file, and in the debugging controls panel, hit the "Restart" button (`Ctrl+Shift+F5` on PC or `Cmd+Shift+F5` on Mac. if that's an option for you). 
+3. In Postman, replace the `/weatherforecast` end of the address with `/hello`. Click Send again
+4. You should see the string `hello` in the response body at the bottom. 
 
 ### What did we just do?
 By making a second call to `MapGet` in our program, we added another _endpoint_ to our API that is waiting for a `GET` request to `http://localhost:<port>/hello`, because we specified that url in the first argument. When the API receives that request, it will call the function that is the second argument. Whatever that function returns will be the data for the HTTP response back to the client (in this case, Postman). The data that this function returns is just `"hello"`, so that is what is in the response body in Postman. 
@@ -88,7 +90,7 @@ By making a second call to `MapGet` in our program, we added another _endpoint_ 
     - _handler_ - a function that is called when a request is made to a particular endpoint's URL. This function can accept data from the HTTP request as arguments, and returns data for the HTTP response
     
     These are important concepts, and they will become clearer as you build more APIs. 
-1. This is a big leap forward from the last book. We are starting to build applications that interact with network requests. It is worthwhile to take inventory of what you think you already know about HTTP requests, and what you don't know yet or may have forgotten (it happens to us all). Take a look at the introduction to the server side curriculum to review what role this API is playing both in the technology stack that we're building, and its role in the HTTP request/response cycle. If any of that is confusing, ask an instructor to chat about it!
+1. This is a big leap forward from the last book. We are starting to build applications that interact with network requests. It is worthwhile to take inventory of what you think you already know about HTTP requests, and what you don't know yet or may have forgotten (it happens to us all). Take a look at the [introduction to the server side curriculum](../readme.md) to review what role this API is playing both in the technology stack that we're building, and its role in the HTTP request/response cycle. If any of that is confusing, ask an instructor to chat about it!
 
 ## 🔍 Additional Materials
 
