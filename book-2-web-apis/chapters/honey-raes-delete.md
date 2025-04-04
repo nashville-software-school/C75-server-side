@@ -2,7 +2,7 @@
 
 Try to write this one yourself! 
 1. Use the `MapDelete` method to create the endpoint
-1. use a route parameter with `{id}` to allow the endpoint to capture the id of the service ticket to delete
+1. Use a route parameter with `{id}` to allow the endpoint to capture the id of the service ticket to delete
 1. In the handler's logic, remove the service ticket from the database that matches that id. There are a number of ways to do this with Linq or List methods. 
 1. The handler doesn't need to return anything, or you can use `return Results.NoContent();` to return a 204 response. 
 1. Test the endpoint in Postman (don't forget to use the `DELETE` method and specify an `id` in the URL!).

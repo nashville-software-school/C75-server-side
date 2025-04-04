@@ -11,8 +11,8 @@ It's time to make your first program! When you installed the .NET SDK (Software 
 1. The previous command created a new directory called `ThrownForALoop`. `cd` into that directory
 1. run `dotnet new gitignore`
 1. Open the project in VS Code with `code .`
-1. When the project opens in VS Code, you will see a dialog that looks like this: <br> ![debug-assets](../../assets/build-and-debug-assets.png)<br>
-1. Click Yes. When you are done, your folder structure should look like this: <br>
+1. When the project opens in VS Code, you will see a dialog that looks like this. Click Yes.<br> ![debug-assets](../../assets/build-and-debug-assets.png)<br> If you don't see this dialog, you can generate these assets manually typing `ctrl-shift-P >` and typing `.NET: Generate Assets For Build and Debug` in the input field
+1. When you are done, your folder structure should look like this: <br>
 ![console-file-structure](../../assets/console-file-structure.png)<br>
 1. Open `launch.json` in the `.vscode` folder. Change `"console": "internalConsole"` to `"console": "integratedTerminal"`, and save the file. 
 1. Go back to the terminal (if you closed your terminal, return to the directory with `ThrownForALoop.csproj` in it) and run `dotnet run`. You should see "Hello World!" in the console before you see another terminal prompt. 

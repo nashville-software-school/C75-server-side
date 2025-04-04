@@ -5,7 +5,7 @@ Learning Objectives:
 1. declaring variables with strong types
 1. string interpolation
 ### Hello, World!
-Take a look at the code that was created by the template:
+Take a look at the code in `Program.cs` that was created by the template:
 
 ``` csharp
 Console.WriteLine("Hello World!");
@@ -69,6 +69,21 @@ Console.WriteLine(greeting);
 ```
 
 Note that when we reference `greeting` in the second line above, we don't put the type in front of the variable name because we are referencing a variable that we already declared above. Likewise, we don't explicitly define the types of arguments when we call a function. The compiler already knows their types. Also note that strings in C# must be inside double-quotes (`"`).
+
+Note: 
+At this point, you might be seeing warnings appear.<br/>
+To disable nullable reference type warnings:<br/>
+Open your .csproj file and find the <PropertyGroup> section<br/>
+Add this line inside it: `<Nullable>disable</Nullable>`<br/>
+Example:
+
+```
+<PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+</PropertyGroup>
+```
 
 ### Making our program interactive
 If we want to make a string multi-line, we can prepend the string with an `@`. This is called a _verbatim string_, but its other features are not important right now.
