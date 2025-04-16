@@ -12,6 +12,7 @@ It's time to make your first program! When you installed the .NET SDK (Software 
 1. run `dotnet new gitignore`
 1. Open the project in VS Code with `code .`
 1. When the project opens in VS Code, you will see a dialog that looks like this. Click Yes.<br> ![debug-assets](../../assets/build-and-debug-assets.png)<br> If you don't see this dialog, you can generate these assets manually typing `ctrl-shift-P >` and typing `.NET: Generate Assets For Build and Debug` in the input field
+    >⚠️ _**Don’t see it?**_ ➔ [Why this happens & how to fix](book-1-installations.md#c-extension-for-vs-code)
 1. When you are done, your folder structure should look like this: <br>
 ![console-file-structure](../../assets/console-file-structure.png)<br>
 1. Open `launch.json` in the `.vscode` folder. Change `"console": "internalConsole"` to `"console": "integratedTerminal"`, and save the file. 
