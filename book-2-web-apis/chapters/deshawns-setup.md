@@ -3,7 +3,7 @@ In this project you will have the opportunity to build a full stack application 
 
 ## Setup
 
-1. Use visit this [template Github repository](https://github.com/nss-group-projects/dotnet-deshawns-react)
+1. Visit this [template Github repository](https://github.com/nss-group-projects/dotnet-deshawns-react)
 1. Click on the **Use this template** button at the top of the page.
 1. Choose your cohort's Github organization as the owner when creating it.
 1. After it's created, add all of your teammates as collaborator by going to the **Settings** tab in the newly created repo.
