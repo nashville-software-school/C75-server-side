@@ -27,11 +27,15 @@ The purpose of this book is to provide a conceptual introduction to building Web
 |5|[Adding all Honey Rae's GET endpoints](./chapters/honey-raes-get-emps-cust.md)<br><sub style="font-size: 0.85rem;">#composition #NotFound</sub>|[Calculating Total Price](./chapters/car-builder-related-data.md)||
 |6| [Creating a Service Ticket](./chapters/honey-raes-create.md) |[Completing a Build](./chapters/car-builder-complete-build.md)||
 |7| [Deleting a Ticket](./chapters/honey-raes-delete.md) <br><sub style="font-size: 0.85rem;">#delete</sub>|[Query String Params](./chapters/car-builder-query-string.md)|
-|8| [Assigning a Ticket](./chapters/honey-rae-put.md) <br><sub style="font-size: 0.85rem;">#put</sub>||:potato:[Coding Self-Assessment](./chapters/coding-self-assessment.md)|
+|8| [Assigning a Ticket](./chapters/honey-rae-put.md) <br><sub style="font-size: 0.85rem;">#put</sub>||
 
 |:robot: AI Exercise|
 |-|
 |[Honey Rae's API](./chapters/ai-generation.md)|
+
+|Coding Self-Assessment|
+|-|
+|[:potato: Tuber Treats](./chapters/coding-self-assessment.md)|
 
 |Group Project|
 |-|
