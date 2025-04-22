@@ -20,7 +20,7 @@ public class Person
 This lets us maintain an organized, non-repetitive structure and also provide a convenient, reusable property. To apply this in our example, add this calculated property called DiscountPrice to the Product class:
 
 ```csharp
-public string DiscountedPrice
+public int DiscountedPrice
     {
         get
         {
@@ -31,11 +31,24 @@ public string DiscountedPrice
 
 Next, add this value to the WriteLine command, and run the application to see it working.
 
+```
+Console.WriteLine($"You chose: {chosenProduct.Name}, which costs {chosenProduct.Price} dollars ({chosenProduct.DiscountedPrice} discounted) and is {(chosenProduct.Sold ? "" : "not ")}sold.");
+```
 ## Casting 
 
-This is useful, but you might notice a problem. If you have an odd-numbered price and divide it by 2, the result will be rounded down. This is because in C# (and other languages) when dividing two `int` values, the result will also be an `int`. Assuming we want the value to include a decimal part when necessary, we need to find a way around this.
+This is useful, but you might notice a problem. If you have an odd-numbered price and divide it by 2, the result will be rounded down. This is because in C# (and many other languages) when dividing two `int` values, the result will also be an `int`. Assuming we want the value to include a decimal part when necessary, we need to find a way around this.
 
-The solution is to make sure one of the numbers is a decimal typed value. So we could instead multiply the price by `.5`. Make that change and see how it works.
+The solution is to make sure one of the numbers is a numeric type with decimal part. We could instead divide by 2.0, but then our return type will no longer be an int, so just change that to a double (we'll talk more about numeric types a bit later):
+
+```
+public double DiscountedPrice
+    {
+        get
+        {
+            return Price / 2.0;
+        }
+    }
+```
 
 That will solve the issue here because we happen to be using a hardcoded value, but that won't always be the case. The good news is that you can _cast_ a value as another type. This is what that syntax looks like:
 
@@ -77,7 +90,7 @@ So we could rewrite our function like this:
 ```csharp
         get
         {
-           int cost = (price > 10) ? 0 : 5;
+           int cost = (Price > 10) ? 0 : 5;
            return cost;
         }
 ```

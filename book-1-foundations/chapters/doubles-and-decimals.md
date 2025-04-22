@@ -8,7 +8,7 @@ Learning Objectives:
 1. Iterating through a `List` with `foreach`.
 
 ## Adding a `Condition` property to `Product`
-The manger of Thrown For a Loop would like to record the condition of the used equipment items that are in stock. The condition is graded on a scale of 1-5, and the manager wants to be able to use non-integer values (3.4, 4.8, etc...)
+The manager of Thrown For a Loop would like to record the condition of the used equipment items that are in stock. The condition is graded on a scale of 1-5, and the manager wants to be able to use non-integer values (3.4, 4.8, etc...)
 
 Add another property to the `Product` class called `Condition`:
 ```csharp

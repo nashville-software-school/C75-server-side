@@ -11,7 +11,7 @@ Each of these options collections requires a `GET` endpoint to fetch all of the 
 ## `/orders`
 
 1. Create an endpoint that gets all orders
-   - This endpoint should [add the related data](./honey-raes-get-emps-cust.md#include-the-employees-data-in-the-service-ticket-details) from each of the options that are related to it. You might have to [add more properties](./honey-raes-get-emps-cust.md#including-related-data) to the `Order` class so that there is a place to store those options on the order.
+   - This endpoint should [add the related data](./honey-raes-get-emps-cust.md#include-the-employees-data-in-the-service-ticket-details) from each of the options that are related to it. You might have to [add more properties](./honey-raes-get-emps-cust.md#including-related-data) to the `Order` class so that there is a place to store those options on the order. And you'll need to add a List with some sample data at the top of `Program.cs` before you can test it.
 1. Create another endpoint that [creates an order](./honey-raes-create.md#creating-a-serviceticket) and adds it to the orders collection.
    - It needs to use the `POST` HTTP method, and should expect an order object in the JSON body of the HTTP request
    - Configure this endpoint to [add the `Timestamp`](./honey-rae-put.md#creating-a-custom-endpoint-to-complete-a-ticket) to the order on the server-side using `DateTime.Now`.

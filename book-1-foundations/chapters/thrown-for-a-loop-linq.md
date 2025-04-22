@@ -1,6 +1,6 @@
 # Querying Data with Linq
 
-Up until now we have been using loops to find and filter data inside collections like `List`s. Fortunately, like array methods in Javascript, .NET includes a library called Linq that provides similar methods for `List`s as well as other iterable collections. We will go into them more in depth in Book 3, but for now you will find three very useful: `Where`, `Select`, and `First` (along with `FirstOrDefault`). These three have nearly identical functionality to `filter`, `map`, and `find` in Javscript.
+Up until now we have been using loops to find and filter data inside collections like `Lists`. Fortunately, like array methods in Javascript, .NET includes a library called Linq that provides similar methods for `Lists` as well as other iterable collections. We will go into them more in depth in Book 3, but for now you will find three very useful: `Where`, `Select`, and `First` (along with `FirstOrDefault`). These three have nearly identical functionality to `filter`, `map`, and `find` in Javscript.
 
 ## `First` and `FirstOrDefault`
 
@@ -62,13 +62,19 @@ foreach (string product in screamedProducts)
 ## Product Category Filter with Linq Methods
 Now that you have been introduced to Linq methods, let's refactor some of our code with one of them to show just one category of products.
 
-Right before we display the list of all products on the console, add the following to create a new array of all the products with the word "ball" in their name:
+Right before we display the list of all products on the console, add the following to create and display a new array of all the products with the word "ball" in their name:
 
 ``` csharp
-List<Product> balls = products.Where(p => p.Contains(`ball`).ToList();
+List<string> balls = products.Where(p => p.Contains("ball")).ToList();
+Console.WriteLine("All ball products:");
+for (int i = 0; i < balls.Count; i++)
+{
+    Console.WriteLine($"{i + 1}. {balls[i]}");
+}
+Console.WriteLine("-------");
 ```
 
-Now, you can update the code to display only the balls by iterating through this new array instead.
+This will display only the balls by iterating through this new array instead. Once you have this working, please remove it and continue with just the full list of products.
 
 **Here are some places in your app you might consider using a Linq method when using loops**:
 1. Anywhere that you are searching for an individual item in products or product types. (HINT: you need to use `FirstOrDefault` and search by `product.Name`, if you are looking for an item with a name that you know.) This could be when updating an item, as an example. 

@@ -49,6 +49,12 @@ app.MapGet("/servicetickets", () =>
     });
 });
 ```
+
+You'll also need to add this line at the top of the file:
+```csharp
+using HoneyRaesAPI.Models.DTOs;
+```
+
 3. Start the debugger for your project using VS Code (refer to the earlier chapter where we cover this if you've forgotten how)
 4. In Postman, make a `GET` request to `http://localhost:<port>/servicetickets`. Check to make sure you got the right data back in the response. 
 

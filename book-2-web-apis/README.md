@@ -18,7 +18,7 @@ The purpose of this book is to provide a conceptual introduction to building Web
 
 ## Table of Contents
 
-|#|🍯 💻<br>  Honey Rae's Repairs<br> <sub>(guided tour)</sub> |🚙🚗 <br>Car Builder |🐕‍🦺 🐩<br> DeShawn's Dog Walking |
+|#|🍯 💻<br>  Honey Rae's Repairs<br><sub>(Guided Tour)</sub> |🚙🚗 <br>Car Builder<br><sub>(Review)</sub> |🐕‍🦺 🐩<br> DeShawn's Dog Walking<br><sub>(Pair Programming Project)</sub>|
 |:-:|:-:|:-:|:-:|
 |1|[Setup for Web APIs](./chapters/web-api-setup.md)|[Project Setup](./chapters/car-builder-setup.md)|[Project Setup](./chapters/deshawns-setup.md)<br><sub style="font-size: 0.85rem;">#proxy</sub>|
 |2|[Making Requests with Postman](./chapters/testing-web-api.md)  <br><sub style="font-size: 0.85rem;">#debugging #endpoints #routes #handlers</sub>|[Basic Requirements](./chapters/car-builder-basic-endpoints.md)|[User Stories](./chapters/deshawns-user-stories.md)|
@@ -28,6 +28,15 @@ The purpose of this book is to provide a conceptual introduction to building Web
 |6| [Creating a Service Ticket](./chapters/honey-raes-create.md) |[Completing a Build](./chapters/car-builder-complete-build.md)||
 |7| [Deleting a Ticket](./chapters/honey-raes-delete.md) <br><sub style="font-size: 0.85rem;">#delete</sub>|[Query String Params](./chapters/car-builder-query-string.md)|
 |8| [Assigning a Ticket](./chapters/honey-rae-put.md) <br><sub style="font-size: 0.85rem;">#put</sub>||:potato:[Coding Self-Assessment](./chapters/coding-self-assessment.md)|
+
+|:robot: AI Exercise|
+|-|
+|[Honey Rae's API](./chapters/ai-generation.md)|
+
+|Group Project|
+|-|
+|[Exomine API](./chapters/exomine-api.md)|
+
 
 |:compass: Explorer Chapters|
 |--|

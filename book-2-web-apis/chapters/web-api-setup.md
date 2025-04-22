@@ -28,12 +28,15 @@ info: Microsoft.Hosting.Lifetime[0]
       Content root path: C:\Path\To\HoneyRaesAPI
 ```
 
+Also, you might notice a new browser tab automatically opens up with a title "Swagger UI". This is a page that's generated automatically to let you browse and even test your API's endpoints. It's a very useful tool and we'll discuss this more later.
+
 Type `Ctrl+C` in the terminal to shut the API down now. 
 
 6. After this, use `code .` to open the project you just created in VS Code. 
 
 6. You should see this dialog from VS Code (click Yes):
 ![build and debug assets confirmation](../../assets/honey-raes-assets-confirm.png)
+If you don't see this dialog, you can generate these assets manually typing `ctrl-shift-P >` and typing `.NET: Generate Assets For Build and Debug` in the input field
 
 ## A tour of the scaffolded project
 

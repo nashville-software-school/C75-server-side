@@ -71,7 +71,7 @@ List<Product> products = new List<Product>()
 ```
 The curly braces below `new Product()` are called the _object initializer_. Like the _collection initializer_ for `List`, the object initializer allows us to set some values in the object right away when we create it. This code is equivalent to the JS above. **Add four more products to the list to get practice with the syntax.** I recommend not copy-pasting to create them. Notice that the different products are comma-separated, just like the strings were before. Each one of these product objects is an _instance_ of the `Product` class.
 
-We have a lot of compiler errors in our program now, because the rest of the program is expecting each item in the `List` to be a `string`.  Let's fix that:
+Now, if you run our program, you'll get a logical bug. Each of the options will say "Product" instead of the appropriate product name. This is because the program is automatically converting each Product object into a string before interpolating it into the output, and that's the best it can do. To fix this, we should instead reference the Name property of each product, which is the string value that we really want to show:
 
 ```csharp
 Console.WriteLine($"{i + 1}. {products[i].Name}");

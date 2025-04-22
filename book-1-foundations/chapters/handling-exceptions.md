@@ -8,6 +8,7 @@ Learning Objectives:
 
 ## Compiler errors vs. runtime Exceptions
 Chances are you have already encountered both compiler errors and runtime exceptions in this part of the course. Practically, you can easily tell the difference between them: compiler errors will show up highlighted in your editor with squiggles under them. There is a program called OmniSharp that is running in the background, and using the C# compiler to check your code for these errors (it's part of the C# extension you installed for VS Code). You can also see a list of compiler errors in the terminal if you run `dotnet build` or `dotnet run` and your program has errors in it.  These are usually syntax or type errors, like missing semicolons, or assigning a `string` as the value of an `int` variable. 
+
 ![Compiler Errors](../../assets/compiler-errors.png)
 
 Runtime exceptions occur when a problem happens with the code that isn't obvious from the syntax of the code. For applications with users and user input, this often happens because some unanticipated input is provided by the user, and it causes the code to not be able to move forward. The classic example is dividing by zero. Let's say we have a calculator program to divide two numbers. The divide program looks like this:
