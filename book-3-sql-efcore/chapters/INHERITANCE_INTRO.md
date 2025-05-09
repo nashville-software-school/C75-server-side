@@ -244,4 +244,4 @@ Now you can run the program again and the Cessna will make a different noise.
 Follow the instructions in this repo: https://github.com/nashville-software-school/ShootingDice
 
 
-Up Next: [LINQ Methods](./chapters/LINQ_INTRO.md)
+Up Next: [LINQ Methods](../chapters/LINQ_INTRO.md)
