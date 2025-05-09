@@ -63,7 +63,7 @@ Fortunately, the endpoint to get reservations already includes `Campsite` and `C
 ## Summary
 This is the end of the walk-through for Entity Framework Core. Before moving to the second column, do the "Up Next" Chapter on Inheritance. After finishing the other columns, check out the explorer chapters for this project.
 
-Up Next: [Inheritance](./chapters/INHERITANCE_INTRO.md)
+Up Next: [Inheritance](./INHERITANCE_INTRO.md)
 
 ## 🔍 Additional Materials
 1. [Access Modifiers](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)

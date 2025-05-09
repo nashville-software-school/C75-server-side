@@ -376,3 +376,6 @@ https://www.youtube.com/watch?v=p5myHVOtmiU
 
 https://docs.microsoft.com/en-us/samples/dotnet/try-samples/101-linq-samples/
 
+
+
+Up Next: [Pair Programming: Hillary's Hair Care](./hillarys-project-requirements.md)
