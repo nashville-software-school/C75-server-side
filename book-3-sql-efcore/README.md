@@ -45,9 +45,7 @@ Because of the large scope of this book, it is split into three parts, roughly c
 |8| [Book reservations](./chapters/creek-river-book-reservation.md) |
 |9| [Deactivate a campsite](./chapters/creek-river-campsite-deactivate.md) |
 |10| [Calculating fees](./chapters/creek-river-calculated.md) <br><sub style="font-size: 0.85rem;">#field #static #private</sub>|
-|11|[Inheritance](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/INHERITANCE_INTRO.md)|
-|12|[Client Side](./chapters/creek-river-client.md)|
-|13|:tv:[Advanced Linq: Nineties TV](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md)|
+|11|:tv:[Advanced Linq: Nineties TV](https://github.com/nashville-software-school/bangazon-inc/blob/server-side-curriculum/book-1-orientation/chapters/LINQ_INTRO.md)|
 
 
 |Pair Programming Project:|
