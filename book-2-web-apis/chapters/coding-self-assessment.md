@@ -35,7 +35,7 @@ Implement all of the following:
 1. Get an order by id (must include customer data as well as driver and toppings data, if applicable). 
 1. Submit a new order (the API should add an `OrderPlacedOnDate`). Return the new order so the client can see the new `Id`. 
 1. Assign a driver to an order (`PUT` to `/tuberorders/{id}`)
-1. Complete an order (`POST` to `/tuberorders/{id}/complete`)
+1. Complete an order (`PUT` to `/tuberorders/{id}/complete`)
 
 ### `/toppings`
 1. Get all toppings
