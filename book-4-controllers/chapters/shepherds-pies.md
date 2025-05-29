@@ -4,7 +4,6 @@ Giuseppe Shepherd learned how to make the perfect pizza as a child from his nonn
 > NOTE: This project is a good example of a fairly ambitious capstone project that more than fulfills the basic requirements for graduation. As you start planning your capstone project, keep this in mind when thinking about the size and scope of the application you are planning to build.    
 
 
-
 ## Project Description
 
 ### Orders
@@ -74,4 +73,9 @@ You will not be able to complete this project efficiently without proper plannin
 1. Use the project requirements to create user stories. Make issues on Github once you have a repo, and add those issues to a Github project. 
 1. Once you have started coding, create a new branch for each feature you work on. Merge that branch into main before you start working on the next feature. 
 
+
+## Project Setup
+[Review this guide](./project-setup.md) to getting this project set up, based on what you did for Bianca's Bike Shop
+
+## Up Next
 [Multiple Foreign Key Properties](./shepherds-pies-foreign-keys.md)
