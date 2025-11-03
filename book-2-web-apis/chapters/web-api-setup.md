@@ -37,7 +37,7 @@ Type `Ctrl+C` in the terminal to shut the API down now.
 6. You should see this dialog from VS Code (click Yes):
 ![build and debug assets confirmation](../../assets/honey-raes-assets-confirm.png)
 If you don't see this dialog, you can generate these assets manually typing `ctrl-shift-P >` and typing `.NET: Generate Assets For Build and Debug` in the input field
-
+    >⚠️ _**Don’t see it?**_ ➔ [Why the dialog doesn’t appear](../../book-1-foundations/chapters/book-1-installations.md#c-extension-for-vs-code)
 ## A tour of the scaffolded project
 
 ### What's the same
